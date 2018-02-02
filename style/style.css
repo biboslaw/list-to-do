@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    background-color: red; 
+    display: flex;
+    flex-direction: column;
+}
+
+.addTask {
+    height: 30%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.taskContent {
+    height: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+p {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+img, svg {
+    cursor: pointer;
+}
+
+img {
+    height: 20px;
+    width: auto;
+    float: right;
+    margin: 3px;
+}
+
+.task {
+    width: 100%;
+    margin: 1% 0;
+}
+
+.correct {
+    background-color: green;
+}
